@@ -1,0 +1,52 @@
+## Interface: 30000
+## Title: ArcHUD |cff7fff7f -Ace2-|r
+## Notes: Combat HUD based on NurfedHUD
+## Notes-ruRU: Адд-он отображает статусную информацию игрока и его цели с помощью элемента по середине экрана. Основанный на NurfedHUD
+## Notes-esES: HUD de Combate basada en NurfedHUD
+## Author: Uruloke
+## SavedVariables: ArcHUDDB
+## Version: 2.2
+## X-Date: $Date: 2008-11-06 22:34:53 +0000 (Thu, 06 Nov 2008) $
+## X-Category: Interface Enhancements
+## X-RelSite-Curse: 3153
+## X-RelSite-UI.WoW: 1950
+## X-AceForum: 1896
+## OptionalDeps: Ace2, FuBar, FuBarPlugin-2.0, CompostLib, DewDropLib, Metrognome, TabletLib
+## X-Embeds: Ace2, FuBarPlugin-2.0, CompostLib, DewDropLib, Metrognome, TabletLib
+## X-Curse-Packaged-Version: r113
+
+# Libraries
+embeds.xml
+
+# Core addon
+Locale_enUS.lua
+Locale_ruRU.lua
+Locale_deDE.lua
+Locale_zhCN.lua
+Locale_esES.lua
+Locale_koKR.lua
+Locale_zhTW.lua
+Core.lua
+Frames.lua
+Nameplates.lua
+Utils.lua
+RingTemplate.lua
+ModuleCore.lua
+FuBarPlugin.lua
+
+# Rings
+Rings\Anchors.lua
+Rings\Health.lua
+Rings\Mana.lua
+Rings\TargetCasting.lua
+Rings\TargetHealth.lua
+Rings\TargetMana.lua
+Rings\PetMana.lua
+Rings\PetHealth.lua
+Rings\FocusHealth.lua
+Rings\FocusMana.lua
+Rings\Casting.lua
+Rings\MirrorTimer.lua
+Rings\ComboPoints.lua
+Rings\DruidMana.lua
+Rings\EnergyTick.lua

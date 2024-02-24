@@ -1,0 +1,24 @@
+------------------------------------------------------------------------
+r113 | hrocdol | 2008-12-07 03:51:48 +0000 (Sun, 07 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/Rings/DruidMana.lua
+
+Adjusted DruidMana.lua to use new UnitPower() and UnitPowerMax() APIs
+------------------------------------------------------------------------
+r111 | fieroivan | 2008-11-17 23:19:30 +0000 (Mon, 17 Nov 2008) | 3 lines
+Changed paths:
+   M /trunk/Rings/Mana.lua
+   M /trunk/Rings/TargetMana.lua
+
+Runic power should now work
+Fix bar color lookup problem
+
+------------------------------------------------------------------------
+r110 | StingerSoft | 2008-11-06 22:34:53 +0000 (Thu, 06 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/ArcHUD2.toc
+   A /trunk/Locale_ruRU.lua
+
+ArcHUD2:
+- added ruRU localization
+------------------------------------------------------------------------
